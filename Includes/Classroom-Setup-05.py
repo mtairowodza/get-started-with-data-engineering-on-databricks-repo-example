@@ -32,6 +32,8 @@ def _create_eltwss_users_update():
 #                              installing_datasets = True,
 #                              enable_streaming_support = False,
 #                              enable_ml_support = False)
+# Rest of your code
+from dbacademy import DBAcademyHelper
 
 DA = DBAcademyHelper(course_config=course_config,
                      lesson_config=lesson_config)

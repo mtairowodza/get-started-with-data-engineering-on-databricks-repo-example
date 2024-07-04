@@ -53,7 +53,11 @@ __install_libraries()
 
 # COMMAND ----------
 
-# MAGIC %pip $pip_command
+# MAGIC %pip install dbacademy
+
+# COMMAND ----------
+
+# MAGIC %restart_python
 
 # COMMAND ----------
 
